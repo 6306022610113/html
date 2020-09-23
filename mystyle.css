@@ -1,0 +1,21 @@
+body{
+    background-color: khaki;
+
+}
+h1{
+    color: maroon;
+    font-size: 50px;
+    font-family: maaja;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+}
+
+p{
+    color: darkred;
+    font-size: 20px;
+    font-family: Th SarabunPSK;
+}

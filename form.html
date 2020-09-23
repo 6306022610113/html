@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>การสร้างฟอร์ม</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1>ทดสอบ h1</h1>
+        <h2>ทดสอบ h2</h2>
+        <p>ทดสอบ h3</p>
+        <Font face="TH SarabunPSK" style="font-size: 18px;">ทดสอบ Font</Font>
+    <form action="" method="POST" name="form1" id="form1">
+        <table class="table table-dark">
+            <thead>
+            <tr>
+                <td>รหัสนักศึกษา:</td>
+                <td><input type="text" required /></td>
+            </tr>
+            </thead>
+            <tr>
+                <td>ชื่อ-นามสกุลนักศึกษา:</td>
+                <td><input type="text" required/></td>
+            </tr>
+            <tr>
+                <td>รหัสผ่าน:</td>
+                <td><input type="password" required/></td>
+            </tr>
+            <tr>
+                <td>วันเกิด:</td>
+                <td><input type="date" id="birthday" name="birthday" required></td>
+            </tr>
+            <tr>
+                <td>ที่อยู่:</td>
+                <td><textarea class="form-control" rows="5" id="comment"></textarea></td>
+            </tr>
+            <tr>
+                <td>ส่วนสูง:</td>
+                <td><input type="number" max="250" min="130" required /></td>
+            </tr>
+            <tr>
+                <td>น้ำหนัก:</td>
+                <td><input type="number" max="200" min="30" required /></td>
+            </tr>
+            <tr>
+                <td>เพศ</td>
+                <td>
+                    <input type="radio" name="gender" value="1" required checked/>ชาย
+                    <input type="radio" name="gender" value="2"/>หญิง<br/>
+                </td>
+            </tr>
+            <tr>
+                <td>งานอดิเรก:</td>
+                <td><input type="checkbox" value="1" required checked/>อ่านหนังสือ
+                    <input type="checkbox" value="2"/>ดูโทรทัศน์
+                    <input type="checkbox" value="3"/>เล่นกีฬา <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" required/></td>
+            </tr>
+            <tr>
+                <td>เว็บของคุณ:</td>
+                <td><input type="url" required/></td>
+            </tr>
+            <tr>
+                <td>เบอร์โทรศัพท์:</td>
+                <td><input type="tel" required/></td>
+            </tr>
+            <tr>
+                <td>อาหารที่ชอบ</td>
+                <td><select class="form-control" id="sell">
+                    <option>ผัดกระเพรา</option>
+                    <option>ผัดคะน้า</option>
+                    <option>ผัดไทย</option>
+                    <option>ผัดเผ็ด</option>
+                </td>
+            </tr>
+            <tr>
+                <td>อัพโหลดข้อมูล:</td>
+                <td><input type="file" required/></td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" value="ยืนยันข้อมูล"/>
+        <input type="reset" name="reset" value="ยกเลิก"/>
+        <!--ข้อมูลที่1:<input type="text"/><br/>
+        ข้อมูลที่2:<input type="password"/><br/> 
+        ข้อมูลที่3:<input type="hidden" value="name"/><br/>
+        ข้อมูลที่4:<input type="radio" name="redio"/><br/>
+        ข้อมูลที่5:<input type="checkbox" value="checkbox"/><br/>
+        ข้อมูลที่6:<input type="file" /><br/>-->
+    </form>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button>
+    </body>
+</html>
