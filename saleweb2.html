@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title></title>
+        <style width="100%">
+            * {
+              box-sizing: border-box;
+              
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              
+            }
+            
+            /* Style the header */
+            header {
+              background-color: #FFFFFF;
+              padding: 30px;
+              text-align: center;
+              font-size: 35px;
+              color: white;
+              
+            }
+            
+            /* Create two columns/boxes that floats next to each other */
+            nav {
+              float: left;
+              width: 30%;
+              height: 300px; /* only for demonstration, should be removed */
+              background: #AFB5BF;
+              padding: 20px;
+            }
+            
+            /* Style the list inside the menu */
+            nav ul {
+              list-style-type: none;
+              padding: 0;
+            }
+            
+            article {
+              float: left;
+              padding: 20px;
+              width: 70%;
+              background-color: #D6DBE3;
+	      text-align: center;
+              height: 300px; /* only for demonstration, should be removed */
+            }
+            
+            /* Clear floats after the columns */
+            section:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Style the footer */
+            footer {
+              float: inline-end;
+              background-color: #CBD0D8;
+              padding: 10px;
+              text-align:center;
+              color: white;
+              
+              
+              
+            }
+            
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+            @media (max-width: 600px) {
+              nav, article {
+                width: 100%;
+                height: auto;
+              }
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <image src="INTRO/imagell/logo.jpg" alt="LOGO" width="100%">
+        </header>
+
+        <section>
+            <nav  >
+              <ul  >
+                <li><a href="">Pandora</a></li>
+                <li><a href="">Product list</a></li>
+              </ul>
+            </nav>
+            <article>
+                <table border="0" > 
+                    <tr>
+                        <td><img src="INTRO/image1/pink1.jpg" alt="pink1"></td>
+                        <td><img src="INTRO/image1/pink1_1.jpg" alt="pink11"></td>
+                        <td><img src="INTRO/image1/pink1_2.jpg" alt="pink12"></td>
+                        <td><img src="INTRO/image1/pink1_3.jpg" alt="pink13"></td>
+                        <td><img src="INTRO/image1/pink1_4.jpg" alt="pink14"></td>
+                    </tr>
+                    <tr>
+                        <td>$31.61</td>
+                        <td>$31.61</td>
+                        <td>$31.61</td>
+                        <td>$41.09</td>
+                        <td>$44.25</td>
+                    </tr>
+                    <tr>
+                        <td><img src="INTRO/image1/pink1_5.jpg" alt="pink15"></td>
+                        <td><img src="INTRO/image1/pink1_6.jpg" alt="pink16"></td>
+                        <td><img src="INTRO/image1/pink1_7.jpg" alt="pink17"></td>
+                        <td><img src="INTRO/image1/pink2.jpg" alt="pink2"></td>
+                        <td><img src="INTRO/image1/pink2_1.jpg" alt="pink21"></td>
+                    </tr>
+                    <tr>
+                        <td>$47.42</td>
+                        <td>$47.42</td>
+                        <td>$53.74</td>
+                        <td>$63.22</td>
+                        <td>$63.22</td>
+                    </tr>
+                    <tr>
+                        <td><img src="INTRO/image1/pink2_2.jpg" alt="pink22"></td>
+                        <td><img src="INTRO/image1/pink2_3.jpg" alt="pink23"></td>
+                        <td><img src="INTRO/image1/pink2_4.jpg" alt="pink24"></td>
+                        <td><img src="INTRO/image1/pink3.jpg" alt="pink3"></td>
+                        <td><img src="INTRO/image1/pink3_1.jpg" alt="pink31"></td>
+                    </tr>
+                    <tr>
+                        <td>$63.22</td>
+                        <td>$63.22</td>
+                        <td>$63.22</td>
+                        <td>$94.83</td>
+                        <td>$94.83</td>
+                    </tr>
+                    <tr>
+                        <td><img src="INTRO/image1/pink3_2.jpg" alt="pink32"></td>
+                        <td><img src="INTRO/image1/pink3_3.jpg" alt="pink33"></td>
+                        <td><img src="INTRO/image1/pink3_4.jpg" alt="pink34"></td>
+                        <td><img src="INTRO/image1/pink3_5.jpg" alt="pink35"></td>
+                        <td><img src="INTRO/image1/pink3_6.jpg" alt="pink36"></td>
+                    </tr>
+                    <tr>
+                        <td>$94.83</td>
+                        <td>$94.83</td>
+                        <td>$94.83</td>
+                        <td>$94.83</td>
+                        <td>$94.83</td>
+                    </tr>
+                </table>
+                <p></p>
+              </article>
+            </section>
+            <footer >
+              <p><a href="index.html">HOME</a></p>
+            </footer>
+    </body>
+</html>
